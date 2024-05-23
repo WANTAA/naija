@@ -1,0 +1,64 @@
+html{
+font size: 24px;
+}
+h1{
+    color: rgb(184, 190, 201);
+    font font-weight: bold;
+    Text-decoration: underline;
+    
+}
+
+.bar{
+    display: flex;
+}
+h2{
+    color:black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+h4{
+    color:rgb(2, 2, 99)
+
+}
+.P{
+    background:linear-gradient(rgb(106, 106, 248),rgb(4, 2, 37));
+    margin-bottom: 2px;
+    padding: 10px;
+    Cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    font-color: white;
+    border-bottom-right-radius: 15px;
+    margin-left: 40px;
+    width: 40%;
+
+}
+button{
+    background: linear-gradient(rgb(26, 48, 243), rgb(241, 241, 148))
+}
+body{
+background: linear-gradient(to right, hsl(234, 58%, 94%),#3060fd)
+
+}
+@keyframes moving-words{
+    0%{
+        transform:translateX(0)
+    }
+    100%{
+        transform:translateX(100px)
+    }
+}
+h1{
+    animation:moving-words 6s infinite;
+}
+h2{
+    animation:moving-words 4s infinite;
+}
+h3{
+    animation:moving-words 2s infinite;
+
+}
+footer{
+    background: linear-gradient(rgb(169, 169, 252),rgb(129, 236, 129));
+    display: flex;
+}
